@@ -20,6 +20,17 @@ function App() {
           <label htmlFor="email">Email:</label>
           <input type="email" id="email"/>
         </div>
+
+        <div className='CampoForm'>
+          <label htmlFor="telefono">Teléfono:</label>
+          <input type="tel" id="telefono"/>
+        </div>
+
+        <div className='CampoForm'>
+          <label htmlFor="password">Contraseña:</label>
+          <input type="password" id="password"/>
+        </div>
+
       </form>
     </div>
   )

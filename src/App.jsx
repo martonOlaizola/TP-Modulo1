@@ -11,6 +11,15 @@ function App() {
           <input type="text" id="name"/>
         </div>
 
+        <div className='CampoForm'>
+          <label htmlFor="lastName">Apellido:</label>
+          <input type="text" id="lastName"/>
+        </div>
+
+        <div className='CampoForm'>
+          <label htmlFor="email">Email:</label>
+          <input type="email" id="email"/>
+        </div>
       </form>
     </div>
   )

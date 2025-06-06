@@ -31,6 +31,12 @@ function App() {
           <input type="password" id="password"/>
         </div>
 
+        <div className='CampoForm'>
+          <label htmlFor="rePassword">Confirmar Contraseña:</label>
+          <input type="password" id="rePassword"/>
+        </div>
+
+        <button type='submit'>Ingresar</button>
       </form>
     </div>
   )

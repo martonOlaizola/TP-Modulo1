@@ -6,7 +6,6 @@ function App() {
     <div className='RegistroBody'>
       <h2>Resgistrate</h2>
       <form className='RegistroForm'>
-        //campo de nombre
         <div className='CampoForm'>
           <label htmlFor="firstName">Nombre:</label>
           <input type="text" id="name"/>
@@ -17,4 +16,4 @@ function App() {
   )
 }
 
-export default App 
+export default App;
